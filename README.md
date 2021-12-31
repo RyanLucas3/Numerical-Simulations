@@ -4,7 +4,7 @@ This repository contains code that I originally wrote in https://github.com/parl
 
 The code was written for this publication https://arxiv.org/pdf/2110.11156.pdf, and closely matches the methodology you'll find in section 3 (simulations) of the paper.
 
-The codebase contains a set of artificial numerical simulations that are related to a phenomenon observed in time series, called regime switching. Regime switching occurs when the properties of the data change part way through the dataset, i.e. when we "switch" from one regime to another. A simple example is a recessionary period versus an expansionary period, say, in a macroeconomic dataset, where clearly the properties of the data (and how we want to approach modelling them) are state dependent.
+The codebase contains a set of artificial numerical simulations that are related to a phenomenon observed in time series, called regime switching. Regime switching occurs when the properties of the data change part way through the dataset, i.e. when we "switch" from one regime to another. A simple example is a recessionary period versus an expansionary period, say, in a macroeconomic dataset, where clearly the properties of the data (and how we might want to approach modelling it) are state dependent.
 
 In reality, regime switching is much more subtle, and rather than switching between binary states the distinctions are probably much more blurred. This makes studying the behaviour of models difficult under regime switching, since there is always a question of which state you are actually in. Luckily, simulations allow us to create own our idealised experiments where we control how the system behaves and can conduct this analysis in a much more controlled setting.
 
