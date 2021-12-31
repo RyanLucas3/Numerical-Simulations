@@ -12,6 +12,13 @@ Luckily, simulations allow us to create own our idealised experiments where we c
 
 Enough of the philosopy of simulations though! Here is an outline to the code base:
 
-**System_A**: System A is a univariate system, where we simply simulate one-dimensional time series with autoregressive dependence. Half way through the simulated     dataset, the process switches from an AR(1) with a mean of 2 and an autoregressive coefficient of 0.1 to an AR(2) with a mean of 10 and autoregressive              coefficients of 0.2 and -0.5 respectively. 
+**System A**: System A is a univariate system, where we simply simulate one-dimensional time series with autoregressive dependence. Half way through the simulated     dataset, the process switches from an AR(1) with a mean of 2 and an autoregressive coefficient of 0.1 to an AR(2) with a mean of 10 and autoregressive              coefficients of 0.2 and -0.5 respectively. 
+
+**System B**: System B is a multivariate system, where we simulate various multivariate time series which take the form of [VAR systems](https://en.wikipedia.org/wiki/Vector_autoregression). Once again, the properties of the system change part way through the dataset. In this case, however, the change occurs both in the autoregressive behaviour (how each time series relates to itself), but also in the interactions between variables.
+
+**System C**: System C is a stochastic process where we simulate a random walk to mimic a stock price. In this case, we simulate an actual financial market crash to occur mid-way through the dataset, effectively partioning the dataset into "boom" and "bust" periods.
+
+Examples of variables simulated from each of the 3 systems are displayed below. We ran 10000 of these experiments and summarised the results in the paper.
+
 
 ![fig1](https://user-images.githubusercontent.com/55145311/147833359-95068b7b-aee2-4782-8f71-4c6ac9ac6577.png)
