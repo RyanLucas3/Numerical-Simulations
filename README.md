@@ -12,6 +12,6 @@ Luckily, simulations allow us to create own our idealised experiments where we c
 
 Enough of the philosopy of simulations though! Here is an outline to the code base:
 
-     System_A: System A is a univariate system, where we simply simulate one-dimensional time series with autoregressive dependence. Half way through the simulated     dataset, the process switches from an AR(1) with a mean of 2 and an autoregressive coefficient of 0.1 to an AR(2) with a mean of 10 and autoregressive              coefficients of 0.2 and -0.5 respectively. 
+*System_A*: System A is a univariate system, where we simply simulate one-dimensional time series with autoregressive dependence. Half way through the simulated     dataset, the process switches from an AR(1) with a mean of 2 and an autoregressive coefficient of 0.1 to an AR(2) with a mean of 10 and autoregressive              coefficients of 0.2 and -0.5 respectively. 
 
 ![fig1](https://user-images.githubusercontent.com/55145311/147833359-95068b7b-aee2-4782-8f71-4c6ac9ac6577.png)
