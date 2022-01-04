@@ -18,7 +18,7 @@ Enough of the philosopy of simulations though! Here is an outline to the code ba
 
 **System C**: System C is a stochastic process where we simulate a random walk to mimic a stock price. In this case, we simulate an actual financial market crash to occur at either t = 50 or t = 70 in the dataset with uniform probability, effectively partioning the dataset into (partially randomly determined) "boom" and "bust" periods.
 
-Examples of variables simulated from each of the 3 systems are displayed below. We ran 10000 iterations for each system and summarised the results in the paper.
+Examples of variables simulated from each of the 3 systems are displayed below. For system A (left) and system B (middle), the vertical red line marks the regime-switch. For system C, the blue and orange lines mark the two possible points that a regime-switch can occur. Overall, we ran 10000 iterations for each system. For more details, do have a look at the results in the paper!
 
 
 ![fig1](https://user-images.githubusercontent.com/55145311/147833359-95068b7b-aee2-4782-8f71-4c6ac9ac6577.png)
