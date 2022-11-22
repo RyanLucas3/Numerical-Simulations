@@ -2,7 +2,7 @@
 
 This repository contains code that I originally wrote in https://github.com/parleyyang/OPRG1. For the purposes of seperating it out from things I didn't write and since that other repository contains other less relevant things, this repository contains my code base for implementing a set of numerical simulations.
 
-The code was written for this publication https://arxiv.org/abs/2110.11156v2, and closely matches the methodology you'll find in section 3 (simulations) of the paper.
+The code was written for this paper https://arxiv.org/abs/2110.11156v2, and closely matches the methodology you'll find in section 3 (simulations) of the paper.
 
 The codebase contains a set of artificial numerical simulations that are related to a phenomenon observed in time series, called regime-switching. Regime-switching occurs when the properties of the data change part way through the dataset, i.e. when we "switch" from one regime to another. A simple example is a recessionary period versus an expansionary period, say, in a macroeconomic dataset, where clearly the properties of the data are state-dependent.
 
